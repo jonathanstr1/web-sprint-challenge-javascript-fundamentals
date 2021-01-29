@@ -27,13 +27,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
     .forEach is essentially a for-loop in a more succinct code. For every element, you can specify an action to be carried out.
-    .map performs an action on an element-by-element basis as well, but places the result in an array whose values correspond to the original element-for-element. .forEach does not return an array.
+    .map performs an action on an element-by-element basis as well, but places the result in an array whose values correspond to the original element-for-element. .forEach does not return an array, or anything necessarily.
 
 2. Explain the difference between a callback and a higher order function.
     A higher order function accepts other functions as parameters/arguments. Callback is the action when the higher order function invokes the passed function.
 3. What is closure? Closure is a function having access to an outer/containing function.  
 
 4. Describe the four rules of the 'this' keyword. 
+    Global - 'this' refers to the console object  ie the user/observer's pov
+    Implicit - refers to the object that is invoking a function by using dot
+    new binding - refers to a newly created object when the constructor function is invoked
+    explicit - 'this' is directly specified by call and apply
 
 5. Why do we need super() in an extended class?  Super indicates what methods/data to pass to subclasses.
 
