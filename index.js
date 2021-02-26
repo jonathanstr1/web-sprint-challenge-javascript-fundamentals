@@ -140,7 +140,7 @@ function multiply(n1, n2){
   
  function greeting(fN, lN){
   return `Hello ${fN} ${lN}, nice to meet you!`;
- }
+ }  
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
   // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
